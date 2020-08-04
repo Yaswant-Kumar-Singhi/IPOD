@@ -6,6 +6,7 @@ import './App.css';
 import Controls from './component/Controls';
 import HomeScreen from './component/HomeScreen';
 import TopBar from './component/TopBar'
+import AboutMeSection from './assets/images/player.png'
 
 
 class App extends React.Component {
@@ -15,7 +16,7 @@ class App extends React.Component {
     this.state = {
       hideMenu: false, // whether to display or hide the menu list
       menuList: {
-        menuName: "IPOD",
+        menuName: "Ipod.js",
         isActive: true,
         backgroundImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZSyTd6ulMKcrTNK0141-F6Mi9VV4bYVIHME6jbcJKVZVmYXk&s",
         menuOptions: [
@@ -60,6 +61,11 @@ class App extends React.Component {
             optionName: "Settings",
             isSelected: false,
             backgroundImage: "https://cdn2.vectorstock.com/i/1000x1000/26/61/gear-setting-logo-icon-vector-24042661.jpg"
+          },
+          {
+            optionName: "About",
+            isSelected: false,
+            backgroundImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLT6efOY0ubO1JHGG6syOriURzFA38mNtCOFK-ygAo9NxqnzHw&s"
           }
         ]
       }

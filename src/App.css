@@ -19,7 +19,7 @@
     top: .9em;
     margin: 0 auto;
     width: 18em;
-    height: 13.5em;
+    height: 13.7em;
     background: #262626;
     border-radius: .3125em;
 }
@@ -149,7 +149,7 @@
 
 /* menu heading style */
 #menu-heading{
-  font-size: 24px;
+  font-size: 18px;
   font-weight: bold;
   padding: 5px 5px;
 }
@@ -157,7 +157,7 @@
 /* menu item style */
 .menu-item{
   position: relative;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 500;
   padding: 6px;
   margin-right: 10px;
