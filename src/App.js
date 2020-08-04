@@ -6,7 +6,7 @@ import './App.css';
 import Controls from './component/Controls';
 import HomeScreen from './component/HomeScreen';
 import TopBar from './component/TopBar'
-import AboutMeSection from './assets/images/player.png'
+
 
 
 class App extends React.Component {
@@ -71,6 +71,7 @@ class App extends React.Component {
       }
     };
   }
+  
 
   //controls callback - whenever we scroll or click a button this method will be called
   myCallback = (dataFromChild) => {
