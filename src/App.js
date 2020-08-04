@@ -5,6 +5,7 @@ import './App.css';
 //import our componenets
 import Controls from './component/Controls';
 import HomeScreen from './component/HomeScreen';
+import TopBar from './component/TopBar'
 
 
 class App extends React.Component {
@@ -219,7 +220,7 @@ class App extends React.Component {
         <div className="ipod">
           <div className="screen">
             <div className="display">
-              
+              <TopBar />
               {/* render home screen component with props menulist and menu hide options */}
               <HomeScreen hideMenu={hideMenu} menuList={menuList} key={menuList.menuName} />
             </div>
