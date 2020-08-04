@@ -17,12 +17,12 @@ class App extends React.Component {
       menuList: {
         menuName: "IPOD",
         isActive: true,
-        backgroundImage: "https://cdn.pixabay.com/photo/2015/06/19/11/41/geometry-814744_960_720.png",
+        backgroundImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZSyTd6ulMKcrTNK0141-F6Mi9VV4bYVIHME6jbcJKVZVmYXk&s",
         menuOptions: [
           {
             optionName: "Cover Flow",
             isSelected: true,
-            backgroundImage: "https://images.theconversation.com/files/258026/original/file-20190208-174861-nms2kt.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=926&fit=clip"
+            backgroundImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZSyTd6ulMKcrTNK0141-F6Mi9VV4bYVIHME6jbcJKVZVmYXk&s"
           },
           {
             optionName: "Music",
@@ -31,22 +31,22 @@ class App extends React.Component {
             menuList: {
               menuName: "Music",
               isActive: false,
-              backgroundImage: "https://c8.alamy.com/comp/2AHPNFJ/neon-colors-isolated-on-a-black-background-music-instruments-vector-illustration-square-shape-design-with-musical-instruments-and-equipment-2AHPNFJ.jpg",
+              backgroundImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRC3aJx4-bUgNcX0zA2g2Djeb4nWO26NpjYXdaev7-5c6NgxN0&s",
               menuOptions: [
                 {
                   optionName: "All Songs",
                   isSelected: true,
-                  backgroundImage: "https://images.theconversation.com/files/258026/original/file-20190208-174861-nms2kt.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=926&fit=clip"
+                  backgroundImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7L9tbC7bgT17Dk8tgJDuZDhmMTKsmp7_DrY3mTXdC9vNih-c&s"
                 },
                 {
                   optionName: "Albums",
                   isSelected: false,
-                  backgroundImage: "https://cdn.pixabay.com/photo/2015/09/05/01/03/records-923679_960_720.jpg"
+                  backgroundImage: "https://i.ytimg.com/vi/zot3qGSdXJ0/maxresdefault.jpg"
                 },
                 {
                   optionName: "Artists",
                   isSelected: false,
-                  backgroundImage: "https://media.defense.gov/2015/Nov/23/2001320091/750/422/0/151118-M-RH401-060.JPG"
+                  backgroundImage: "https://www.officialcharts.com/media/649641/biggest-artist-albums-of-2015.jpg?width=796&mode=stretch"
                 }
               ]
             }
@@ -54,12 +54,12 @@ class App extends React.Component {
           {
             optionName: "Games",
             isSelected: false,
-            backgroundImage: "https://c1.wallpaperflare.com/preview/523/21/80/board-game-fun-game-hands.jpg"
+            backgroundImage: "https://cn.i.cdn.ti-platform.com/content/336/toon-cup-2020/game/uk/tooncup2020-1280x720-en.0b74787d.jpg?imwidth=300"
           },
           {
             optionName: "Settings",
             isSelected: false,
-            backgroundImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWqo4UHDzpOw80JajA1W9HUyKlPSgHw1vygATH3JRZGw_OVTF2KA&s"
+            backgroundImage: "https://cdn2.vectorstock.com/i/1000x1000/26/61/gear-setting-logo-icon-vector-24042661.jpg"
           }
         ]
       }

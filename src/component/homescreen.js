@@ -4,7 +4,7 @@ import React from 'react';
 import Menu from './Menu';
 //get music player background image
 import imageURL from '../player.png'
-import audioFile from '../Thunder.mp3';
+import audioFile from '../../src/song.mp3';
 
 //home screen functional property with props set from App
 const HomeScreen = (props) => {
