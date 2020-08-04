@@ -10,7 +10,7 @@ import audioFile from '../../src/song.mp3';
 const HomeScreen = (props) => {
   //get hide menu and menulist from props
   let {hideMenu, menuList} = props;
-  //set menulist to musci menu if main menu is not active
+  //set menulist to music menu if main menu is not active
   if(!menuList.isActive)
     menuList = menuList.menuOptions[1].menuList;
   
