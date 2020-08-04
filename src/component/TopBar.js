@@ -22,6 +22,7 @@ class TopNav extends React.Component{
         let monthName = monthNames[monthNumber];
         
         
+        
         setInterval(() => {
             this.setState({
                 curHour: new Date().getHours().toLocaleString(),
