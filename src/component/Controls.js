@@ -10,17 +10,17 @@ import {
 
 import ZingTouch from 'zingtouch';
 
-class Wheel extends React.Component {
+class Controls extends React.Component {
 
-  //once the wheel are mounted attach scroll handler
+  //once the controls are mounted attach scroll handler
   componentDidMount(){
-    document.getElementById("wheel").onclick = this.handleScroll(this.props.callbackFromParent);
+    document.getElementById("controls").onclick = this.handleScroll(this.props.callbackFromParent);
   }
 
   handleScroll = (callbackFromParent) => {
     console.log("clicked");
     let angle = 0
-    const target = document.getElementById('wheel');
+    const target = document.getElementById('controls');
     const region = new ZingTouch.Region(target);
     region.bind(target, 'rotate', function(e) {
       console.log("scroll ", angle);
@@ -41,7 +41,7 @@ class Wheel extends React.Component {
   render(){
     const {callbackFromParent} = this.props;
     return (
-      <div id="wheel" draggable="false">
+      <div id="controls" draggable="false">
         <div id="menu-button" className="unselectable" onClick={() => this.handleClick("menu")}>
           Menu
         </div>
@@ -61,4 +61,49 @@ class Wheel extends React.Component {
   }
 }
 
-export default Wheel;
+// const styles = {
+//   controls: {
+//     position: 'relative',
+//     margin: '3.5em auto',
+//     width: '5em',
+//     height: '5em',
+//     border: '3.5em solid #fff',
+//     borderRadius: '50%',
+//     boxShadow: 'inset 0 1em 3em #aaa'
+//   },
+//   menu: {
+//     position: 'absolute',
+//     top: '-3.4em',
+//     left: '0.9em',
+//     fontWeight: 'bold',
+//     color: '#b4bcc5',
+//     width: '50px',
+//     height: '25px',
+//     cursor: 'default',
+//   },
+//   next: {
+//     position: 'absolute',
+//     left: '7em',
+//     top: '1.75em',
+//   },  
+//   play: {
+//     position: 'absolute',
+//     top: '6.9em',
+//     left: '1.1em',
+//     width: '50px',
+//     height: '25px'
+//   },  
+//   previous: {
+//     position: 'absolute',
+//     top: '1.75em',
+//     left: '-3.2em'
+//   },  
+//   iconStyle: {
+//     fontSize: '0.8em !important',
+//     padding: '2px',
+//     color: '#b4bcc5',
+//     fontWeight: 'lighter'
+//   }
+// }
+
+export default Controls;
