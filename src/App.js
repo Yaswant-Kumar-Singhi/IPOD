@@ -117,7 +117,8 @@ class App extends React.Component {
           this.setState({ hideMenu: true });
         }
         break;
-      //if play/pause button is clicked
+      //trying to implement play pause fast forward increase decrease volume
+        //if play/pause button is clicked
       case "play-pause":
         if (this.state.hideMenu) {
           let allSongs = this.state.menuList.menuOptions[1].menuList.menuOptions[0];

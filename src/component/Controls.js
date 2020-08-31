@@ -37,7 +37,7 @@ class Controls extends React.Component {
   handleClick = (component) => {
     this.props.callbackFromParent(component);
   }
-
+//rendering
   render(){
     const {callbackFromParent} = this.props;
     return (

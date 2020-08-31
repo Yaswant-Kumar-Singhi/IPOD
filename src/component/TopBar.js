@@ -10,8 +10,8 @@ class TopNav extends React.Component{
         };
       }
       componentDidMount() {
-        const hours = new Date().getHours(); //Current Hours
-        const min = new Date().getMinutes(); //Current Minutes
+        //const hours = new Date().getHours(); //Current Hours
+        //const min = new Date().getMinutes(); //Current Minutes
         let monthNumber = (new Date().getMonth());// select month 
         let monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
         let monthName = monthNames[monthNumber]; 
@@ -34,8 +34,8 @@ class TopNav extends React.Component{
             {this.state.currDay}    
             </div>
             <div id="rightNav">
-                <img  id="batteryicon" src={require("../../src/battery.png")}></img>
-                <img  id="batteryicon" src={require("../../src/earphone.png")}></img>
+                <img  id="batteryicon" src={require("../../src/battery.png")} alt="batteryIcon" ></img>
+                <img  id="batteryicon" src={require("../../src/earphone.png")} alt="earphoneIcon"></img>
             </div>
         </div>
         )
