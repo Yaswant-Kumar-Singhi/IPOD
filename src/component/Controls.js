@@ -16,7 +16,7 @@ class Controls extends React.Component {
   componentDidMount(){
     document.getElementById("controls").onclick = this.handleScroll(this.props.callbackFromParent);
   }
-
+//scroll handler for handling scroll
   handleScroll = (callbackFromParent) => {
     console.log("clicked");
     let angle = 0
@@ -33,7 +33,7 @@ class Controls extends React.Component {
       }
     });
   }
-
+//click handler fro handling clicks
   handleClick = (component) => {
     this.props.callbackFromParent(component);
   }

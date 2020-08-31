@@ -1,5 +1,6 @@
 //import react 
 import React from 'react';
+//import css file
 import './App.css';
 
 //import our componenets
@@ -8,7 +9,7 @@ import HomeScreen from './component/HomeScreen';
 import TopBar from './component/TopBar'
 
 
-
+//react component
 class App extends React.Component {
   constructor() {
     super();

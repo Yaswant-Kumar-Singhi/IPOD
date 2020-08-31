@@ -58,7 +58,7 @@ const HomeScreen = (props) => {
     );
   }
 }
-
+//styling 
 const Styles = {
   imgStyle:{
     width:180,

@@ -41,6 +41,6 @@ class TopNav extends React.Component{
         )
     }
 }
-
+//exporting topnav bar which contains time,month, battery icon, and earphone image
 export default TopNav;
    
