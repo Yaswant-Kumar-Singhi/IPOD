@@ -2,7 +2,7 @@
   "name": "ipod",
   "version": "0.1.0",
   "private": true,
-  "homepage": " https://yaswant-kumar-singhi.github.io/IPOD/",
+  "homepage": "https://yaswant-kumar-singhi.github.io/IPOD/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.30",
     "@fortawesome/free-solid-svg-icons": "^5.14.0",
