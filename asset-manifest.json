@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/IPOD/static/css/main.3bcc81b5.chunk.css",
+    "main.js": "/IPOD/static/js/main.ad75d073.chunk.js",
+    "main.js.map": "/IPOD/static/js/main.ad75d073.chunk.js.map",
+    "runtime-main.js": "/IPOD/static/js/runtime-main.72397efd.js",
+    "runtime-main.js.map": "/IPOD/static/js/runtime-main.72397efd.js.map",
+    "static/js/2.b5a0de9b.chunk.js": "/IPOD/static/js/2.b5a0de9b.chunk.js",
+    "static/js/2.b5a0de9b.chunk.js.map": "/IPOD/static/js/2.b5a0de9b.chunk.js.map",
+    "index.html": "/IPOD/index.html",
+    "precache-manifest.eeb89bd3c7b219c30d78da47795bbf3d.js": "/IPOD/precache-manifest.eeb89bd3c7b219c30d78da47795bbf3d.js",
+    "service-worker.js": "/IPOD/service-worker.js",
+    "static/css/main.3bcc81b5.chunk.css.map": "/IPOD/static/css/main.3bcc81b5.chunk.css.map",
+    "static/js/2.b5a0de9b.chunk.js.LICENSE.txt": "/IPOD/static/js/2.b5a0de9b.chunk.js.LICENSE.txt",
+    "static/media/player.png": "/IPOD/static/media/player.654284e4.png",
+    "static/media/song.mp3": "/IPOD/static/media/song.6d6b9f14.mp3"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.72397efd.js",
+    "static/js/2.b5a0de9b.chunk.js",
+    "static/css/main.3bcc81b5.chunk.css",
+    "static/js/main.ad75d073.chunk.js"
+  ]
+}
